@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+
+}
+
+ul {
+  background: #000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 50px;
+  overflow: auto; /* devuelve a ul su contexto de bloque unas vez aplicado float a li*/
+}
+
+li {
+  width: 100px;
+  /*display: inline-block;*/
+  text-align: center;
+  float: left;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+   display: block;
+ }
+
+a:hover {
+  background: #f9a91a;
+  color: #000;
+}

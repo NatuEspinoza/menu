@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  width: 200px;
+}
+
+ul {
+  /*outline: 1px solid yellow;  /*dibuja un contorno (ayuda visual)*/
+  list-style: none;
+  /*quitando los puntos de lista*/
+  margin: 0;
+  padding: 0;
+  /* quitamos el espacio que dejan los puntos de lista*/
+  line-height: 30px;
+  /* crea un interlineadoa*/
+}
+
+li {
+  /*outline: 1px solid red;*/
+  background: rgb(240, 240, 242);
+}
+
+/* los estados de los enlaces:LoVe/HAter link Visited Hover Active*/
+
+a {
+  /*outline: 1px solid green;*/
+  display: block;
+  /* pasa de line a block y toma todo el espacio de su contenedor (li)*/
+  text-decoration: none;
+  /* Elimina el subrayado del link*/
+  color: #000;
+  padding-left: 10px;
+}
+
+a:hover {
+  background: #949192;
+}
+
+a:active {
+  background: #3a3a3b;
+}
+
+ul li:first-child {
+  background: #dba501;
+}
+
+ul li:first-child a {
+  color: #FFF;
+}
+
+ul li:first-child a:hover {
+  color: #000;
+}
+
+ul li:first-child a:active {
+  color: #fff;
+}
